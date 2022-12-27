@@ -1,0 +1,43 @@
+# System Messages:
+prefix: '&b&lTasks&b: '
+plugin-reload: '&fYou have &asuccessfully &freloaded &bTasked&f.'
+
+# Task Messages:
+task-added: '&fYou have assigned &b%player% &fthe task "%task%&f"!'
+task-removed: '&fYou have removed the task "%task%&f" for &b%player%&f.'
+task-completed: '&fYou have completed the task "%task%&f"!'
+task-list: '&3•• &b&lTasks &b| &l%player% &3••&r'
+new-tasks: '&c⚠ &b&lYou have new task(s)&b:&r'
+
+# Error Messages:
+no-permission: '&fYou don''t have access to this command.'
+invalid-usage: '&fInvalid usage, use &b&n/task help&r &fto view command usage.'
+unknown-task: '&fThat task couldn''t be found. Use &b&n/task list&r &fto view all tasks.'
+
+# Extra Messages:
+help-list: |-
+    &3•• &b&lHelp &b| &lTasked &3••
+    &r
+    &3/&btasked help &3› &fDisplays all available commands and usages
+    &3/&btasked reload &3› &fReloads the plugin configuration & messages
+    &3/&btasked add <player> <task> &3› &fCreates a new active task
+    &3/&btasked remove <player> <task> &3› &fRemoves an active task
+    &3/&btasked complete <player> <task> &3› &fCompletes an active task
+    &3/&btasked list <player> &3› &fView all available active tasks
+
+# Discord Integration Settings
+discord-integration: false
+webhook-url: ''
+webhook-name: 'Tasks'
+webhook-avatar: 'https://i.imgur.com/YD5U8fx.png'
+task-created-webhook:
+    title: 'Task | Added'
+    color: '#271064'
+    tasks-field: '**__Tasks__**'
+    assigned-to-field: '**__Assigned To__**'
+    assigned-by-field: '**__Assigned By__**'
+task-completed-webhook:
+    title: 'Task | Completed'
+    color: '#271064'
+    completed-task-field: '**__Completed Task__**'
+    completed-by-field: '**__Completed By__**'

@@ -1,0 +1,12 @@
+name: "Tasked"
+version: "2.1"
+main: "vb.$tasked.PluginMain"
+api-version: 1.13
+authors: [Obviouslee]
+description: "The simple solution to assigning your staff tasks!"
+website: "https://discord.obviouslee.dev"
+depend: [PlaceholderAPI]
+commands:
+  tasked:
+    aliases: [task]
+permissions:
